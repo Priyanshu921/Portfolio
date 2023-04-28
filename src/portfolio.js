@@ -226,9 +226,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://www.coursera.org/account/accomplishments/certificate/TKHWRE4RZDY3"
-        }
-      ]
+          url: "https://www.coursera.org/account/accomplishments/certificate/TKHWRE4RZDY3",
+        },
+      ],
     },
     {
       title: "Introduction to Cloud Computing",
@@ -238,23 +238,22 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://coursera.org/share/16ab2af756976f5c5c45eef257138f9f"
-        }
-      ]
+          url: "https://coursera.org/share/16ab2af756976f5c5c45eef257138f9f",
+        },
+      ],
     },
     {
       title: "Introduction to Web Development",
-      subtitle:
-        "Introduction to Web Development course by IBM on coursera",
+      subtitle: "Introduction to Web Development course by IBM on coursera",
       image: require("./assets/images/Introduction to Web Development with HTML, CSS certificate_page-0001.jpg"),
       imageAlt:
         "Introduction to Web Development with HTML,CSS, and JavaScript Certificate",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://coursera.org/share/861146b80f1b69f0c6e555fb50280103"
-        }
-      ]
+          url: "https://coursera.org/share/861146b80f1b69f0c6e555fb50280103",
+        },
+      ],
     },
     {
       title: "JavaScript Basic",
@@ -264,9 +263,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://www.hackerrank.com/certificates/883d4bd9cdda"
-        }
-      ]
+          url: "https://www.hackerrank.com/certificates/883d4bd9cdda",
+        },
+      ],
     },
     {
       title: "JavaScript Intermediate",
@@ -276,24 +275,36 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://www.hackerrank.com/certificates/5952036eda2e"
-        }
-      ]
+          url: "https://www.hackerrank.com/certificates/5952036eda2e",
+        },
+      ],
     },
     {
-      title: "React Intermediate",
-      subtitle: "React Intermediate certificate from hackerrank.",
+      title: "React Basic",
+      subtitle: "React Basic certificate from hackerrank.",
       image: require("./assets/images/react_basic certificate_page-0001.jpg"),
-      imageAlt: "React Intermediate certificate",
+      imageAlt: "React Basci certificate",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://www.hackerrank.com/certificates/5af247777f44"
-        }
-      ]
-    }
+          url: "https://www.hackerrank.com/certificates/5af247777f44",
+        },
+      ],
+    },
+    {
+      title: "Star Achiever Award",
+      subtitle: "Star Achiever Award from Yash Technologies.",
+      image: require("./assets/images/Award Priyanshu Patidar.jpg"),
+      imageAlt: "Star Achiever Award",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "static/media/Award%20Priyanshu%20Patidar.6b456d498bd824d4f192.jpg",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
