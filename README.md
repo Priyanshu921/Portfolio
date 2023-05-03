@@ -2,6 +2,9 @@
 
 This is a sample React project that showcases a personal portfolio website. It is built using various libraries and tools including React, Sass, and React-Router.
 
+[![Visit My Portfolio](https://img.shields.io/badge/Visit-My%20Portfolio-blueviolet)](https://portfolio-16os.onrender.com/)
+
+
 ## Project Setup
 
 To get started with the project, clone the repository to your local machine and navigate to the project directory. Then, install the project dependencies using the following command:
