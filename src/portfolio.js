@@ -292,6 +292,19 @@ const achievementSection = {
       ],
     },
     {
+      title: "Developing Front-End Apps with React",
+      subtitle:
+        "Developing Front-End Apps with React course by IBM on coursera.",
+      image: require("./assets/images/Developing Front-End Apps with React_page-0001 (1).jpg"),
+      imageAlt: "React certificate by IBM on coursera",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/share/c828489f3df9bbadecaf84956202d3c2",
+        },
+      ],
+    },
+    {
       title: "Star Achiever Award",
       subtitle: "Star Achiever Award from Yash Technologies.",
       image: require("./assets/images/Award Priyanshu Patidar.jpg"),
