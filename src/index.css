@@ -30,7 +30,13 @@ body {
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: rem;
     line-height: normal;
+  }
+}
+
+@media (max-width: 580px) {
+
+  .react-reveal#achievements {
+    opacity: 100%;
   }
 }
