@@ -232,7 +232,7 @@ const achievementSection = {
     },
     {
       title: "Introduction to Cloud Computing",
-      subtitle: "Introduction to Cloud Computing course by IBM on coursera",
+      subtitle: "Cloud Computing course by IBM on coursera",
       image: require("./assets/images/Introduction to cloud computing certificate_page-0001.jpg"),
       imageAlt: "Introduction to Cloud Computing Certificate",
       footerLink: [
@@ -244,7 +244,7 @@ const achievementSection = {
     },
     {
       title: "Introduction to Web Development",
-      subtitle: "Introduction to Web Development course by IBM on coursera",
+      subtitle: "Web Development course by IBM on coursera",
       image: require("./assets/images/Introduction to Web Development with HTML, CSS certificate_page-0001.jpg"),
       imageAlt:
         "Introduction to Web Development with HTML,CSS, and JavaScript Certificate",
@@ -292,15 +292,28 @@ const achievementSection = {
       ],
     },
     {
-      title: "Developing Front-End Apps with React",
+      title: "React Certificate",
       subtitle:
-        "Developing Front-End Apps with React course by IBM on coursera.",
+        "React course by IBM on coursera.",
       image: require("./assets/images/Developing Front-End Apps with React_page-0001 (1).jpg"),
       imageAlt: "React certificate by IBM on coursera",
       footerLink: [
         {
           name: "View Certificate",
           url: "https://coursera.org/share/c828489f3df9bbadecaf84956202d3c2",
+        },
+      ],
+    },
+    {
+      title: "Node.js certificate",
+      subtitle:
+        "Node.js and Express course by IBM on coursera.",
+      image: require("./assets/images/Developing Back-End Apps with Node.js and Express.jpg"),
+      imageAlt: "Node.js and express.js certificate by IBM on coursera",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/share/661c5de2410ad6d1a14d5d4af40b6f59",
         },
       ],
     },
