@@ -49,15 +49,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Full Stack Software Engineer | Specializing in Enterprise Integrations & Scalable Backends",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,59 +66,47 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fas fa-code", // FontAwesome free version usually doesn't have a specific TS icon, so a generic code icon works best
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "React.js",
+      fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "NestJS",
+      fontAwesomeClassname: "fas fa-server", // Generic server icon for NestJS backend
     },
     {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -168,15 +157,28 @@ const workExperiences = {
       date: "August 2021 – April 2023",
       desc: "I Worked as a MERN Stack developer at Yash Technologies Pvt. Ltd from August 2021 to April 2023. It is a service-based MNC located in Indore, Madhya Pradesh",
       descBullets: [
-        "24/7 Planner Tool KONE: I had the opportunity to work on this project, which was a challenging but rewarding experience. Using React and Spring Boot, we were able to develop a tool that accurately estimates maintenance costs for lifts and elevators. The user-friendly interface and insightful reports we created helped clients to budget and allocate resources effectively.",
-        "C.H. Robinson - Silverlight Migration Project: This project was a significant undertaking, and I was excited to be a part of it. We migrated an existing application to a new one using technologies like React, Redux, Redux observable, and Jest. It was a great learning experience for me as I gained practical knowledge of these technologies.",
-        "Reusable Component: As part of this project, we created a reusable component and custom NPM packages for our project. I worked with React, SASS, TypeScript, and Jest, and I was pleased with the results we achieved.",
-        "DevOps Competency and Salams: Working on this project was a fantastic opportunity to redesign an entire application as per UX designs. I gained experience using HTML, CSS, JavaScript, and React, and I am proud of the contributions I made to the project.",
-        "Interview Screening: Being a part of Yash's Full Stack product was an incredible experience for me. I was able to develop Express CRUD APIs, React components, and integrate MongoDB with Node using Mongoose ODM while implementing Role Based Authentication. The technologies we used included MongoDB, Express, React, Node, and TypeScript, with tools like Postman, MongoDB Compass, Git, and GitHub.",
-        "Technologies: My experience at Yash Technologies involved working with NodeJS, Express, ReactJS, MongoDB, Mongoose, Azure, Redux, Redux-observable, and PostgreSQL. These technologies helped me to expand my knowledge and gain practical experience in building real-world applications."
-      ]
-    }
-  ]
+        "Internal Efficiency: Developed and published a reusable UI component library to NPM, reducing internal development time by 45%.",
+        "Interview Screening Platform: Architected a full-stack product to automate technical hiring, involving Express CRUD APIs and Mongoose ODM integration.",
+        "Legacy Migration: Led the migration of a major logistics platform from Silverlight to React/Redux, implementing robust testing with Jest.",
+        "Maintenance Estimator: Developed a cost-estimation tool for a leading engineering firm using React and Spring Boot to streamline client budgeting.",
+        "Awards: Recognized as a 'Star Achiever' (Q4 2022) and received the vRise Award for outstanding performance.",
+      ],
+    },
+    {
+      role: "Fullstack Developer",
+      company: "AgileEngine",
+      companylogo: require("./assets/images/agileengine-logo.png"),
+      date: "May 2024 – Present",
+      desc: "Driving the architecture and development of enterprise ERP, financial platforms, and complex data synchronization pipelines using React, Next.js, NestJS, and TypeScript.",
+      descBullets: [
+        "Financial & Core Modules: Engineered complex backend logic for automated margin calculations and overhauled invoicing workflows to ensure precise financial operations.",
+        "Enterprise Integrations: Architected robust data synchronization pipelines across enterprise CRM and HRMS platforms to maintain cross-system data consistency.",
+        "System Resilience: Optimized third-party API consumption by engineering batch operations and custom cooling periods, successfully bypassing strict rate-limiting thresholds.",
+        "Production Safeguards: Implemented robust environment-based feature flags and architectural guardrails to prevent accidental data mutations during non-prod lifecycles.",
+        "Operational Automation: Built a self-service SOW modification tool and automated tracking alerts, significantly reducing manual bottlenecks and improving system visibility.",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
