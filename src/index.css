@@ -1,42 +1,60 @@
-@font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
-  font-display: swap;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Geist', 'Inter', system-ui, sans-serif;
+  
+  --color-slate-850: #141c2b;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+  
+  --bg-dark: #050505;
+  --cyber-blue: #00F0FF;
+  --warning-orange: #FF5A00;
+  --grid-line: rgba(255, 255, 255, 0.03);
 }
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
-  font-display: swap;
+
+::selection {
+  background-color: var(--cyber-blue);
+  color: #000;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-html,
+
 body {
-  scroll-behavior: smooth;
-}
-body {
+  background-color: var(--bg-dark);
+  color: white;
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-/* Media Query */
-@media (max-width: 1380px) {
-  html,
-  body {
-    line-height: normal;
-  }
+  /* Blueprint Grid Pattern */
+  background-image: 
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center center;
 }
 
-@media (max-width: 580px) {
+/* Custom Scrollbar for Terminal */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(16, 185, 129, 0.05);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.5);
+}
 
-  .react-reveal#achievements {
-    opacity: 100%;
-  }
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.magnetic-target {
+  /* Helper class for MagneticCursor */
+}
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(224px); /* height of the container (h-56 = 224px) */ }
 }
