@@ -20,8 +20,9 @@ export default function CounterMetric({ label, value, suffix = "", delay = 0 }) 
       <span className="text-[10px] font-mono text-cyan-400/70 tracking-widest uppercase mb-1">
         {label}
       </span>
-      <motion.span className="text-3xl font-black text-slate-100 font-mono tracking-tighter">
-        {hasStarted ? rounded : "00"}{suffix}
+      <motion.span className="text-3xl font-black text-slate-100 font-mono tracking-tighter flex items-center gap-1">
+        {hasStarted ? <motion.span>{rounded}</motion.span> : <span>00</span>}
+        {suffix && <span>{suffix}</span>}
       </motion.span>
     </div>
   );
