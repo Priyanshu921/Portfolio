@@ -83,7 +83,7 @@ export default function HeroSection({ greeting, social }) {
             
             <CounterMetric label="01 // GitHub Repositories" value={14} delay={1500} />
             <CounterMetric label="02 // Tech Stack Nodes" value={22} delay={1800} />
-            <CounterMetric label="03 // Years Architecture" value={3} delay={2100} />
+            <CounterMetric label="03 // Years Architecture" value={4} suffix="+" delay={2100} />
           </motion.div>
 
         </div>

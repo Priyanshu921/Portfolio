@@ -1,7 +1,7 @@
 import { motion, useSpring, useTransform, animate } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-export default function CounterMetric({ label, value, delay = 0 }) {
+export default function CounterMetric({ label, value, suffix = "", delay = 0 }) {
   const [hasStarted, setHasStarted] = useState(false);
   const count = useSpring(0, { damping: 30, stiffness: 100, duration: 2000 });
   const rounded = useTransform(count, Math.round);
@@ -21,7 +21,7 @@ export default function CounterMetric({ label, value, delay = 0 }) {
         {label}
       </span>
       <motion.span className="text-3xl font-black text-slate-100 font-mono tracking-tighter">
-        {hasStarted ? rounded : "00"}
+        {hasStarted ? rounded : "00"}{suffix}
       </motion.span>
     </div>
   );
