@@ -3,6 +3,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
     "autoprefixer": "^10.5.4",
